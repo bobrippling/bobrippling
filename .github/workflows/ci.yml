@@ -14,10 +14,10 @@ jobs:
     - name: Check out repo
       uses: actions/checkout@v2
     - name: Update README
-      env:
-        BOBRIPPLING_TOKEN: ${{ secrets.BOBRIPPLING_TOKEN }}
       run: make -B
     - name: Commit and push if changed
+      #env:
+      #  BOBRIPPLING_TOKEN: ${{ secrets.BOBRIPPLING_TOKEN }}
       run: |-
         git diff
         git config --global user.email "readme-bot@example.com"
