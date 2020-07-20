@@ -1,0 +1,23 @@
+#!/bin/sh
+
+if test $# -ne 0
+then
+	echo >&2 "Usage: $0"
+	exit 2
+fi
+
+sed '/-- tips start --/q' < readme.md
+
+awk '
+/^# Archive/ {
+	p = 0
+}
+
+p
+
+/^# Current Tips/ {
+	p = 1
+}
+' < tips.md
+
+sed -n '/-- tips end --/,$p' < readme.md
