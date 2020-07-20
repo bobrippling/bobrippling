@@ -1,5 +1,10 @@
-# Current Tips
+Interested in compilers and languages. Very low volume [blog](https://bobrippling.github.io/) and [twitter](https://twitter.com/bobrippling).
 
+<table><tr>
+
+<td style='vertical-align: "top"; width: "50%"'>
+### TIL
+<!-- tils start -->
 | Command                | Description                                         |
 |------------------------|-----------------------------------------------------|
 | `:g/^\\s*\$/;//-1sort` | Sort each block of lines in a file                  |
@@ -8,43 +13,14 @@
 | `c_<C-R>_<C-G>`        | Insert [commit:]path of current object [fugitive]   |
 | `<C-W>_<C-^>`          | Open # in new split                                 |
 | ``:e `=...` ``         | Evaluate expr in backticks as vim expression        |
+<!-- tils end -->
+More in the [archive](https://github.com/bobrippling/til/blob/master/readme.md)
+</td>
 
-# Archive
+<td style='vertical-align: "top"; width: "50%"'>
+### Favourite Projects
+- [rust](https://github.com/rust/rust)
+- [neovim](https://github.com/neovim/neovim)
+</td>
 
-## Shortcuts
-
-| Shortcut            | Description                                         |
-|---------------------|-----------------------------------------------------|
-| `[i`                | Show first line with a word on                      |
-| `[I`                | Show all lines with a word on                       |
-| `[<Ctrl-i>`         | Jump to first line with a word on                   |
-| `<Ctrl-W>[i`        | New window jump to first line with a word on        |
-| `<Ctrl-W>} / :ptag` | Preview tag                                         |
-| `<Ctrl-W>z / :pc`   | Close preview                                       |
-
-## Commands
-
-| Command             | Description                                         |
-|---------------------|-----------------------------------------------------|
-| `:[s]bm[odified]`   | [Split and] open the next modified buffer           |
-| `:cb[uffer]`        | Retrieve quickfix from [specified] buffer           |
-| `:cnf`              | :cn, but next file                                  |
-| `:po[p] / Ctrl-T`   | Pop the tag stack                                   |
-| `:0f[ile]`          | Remove name of current buffer                       |
-
-## Settings
-
-| Setting             | Description                                         |
-|---------------------|-----------------------------------------------------|
-| `'bufhidden'`       | set 'hidden' on an individual buffer basis          |
-
-
-## Tricks
-
-### Ignore spelling errors in syntax region
-
-`:syn match Comment /^>.*/ contains=\@NoSpell`
-
-### Uppercase marks
-
-... mark a line anchored to a file
+</tr></table>
