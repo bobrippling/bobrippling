@@ -16,7 +16,7 @@ jobs:
     - name: Update README
       env:
         BOBRIPPLING_TOKEN: ${{ secrets.BOBRIPPLING_TOKEN }}
-      run: make
+      run: make -B
     - name: Commit and push if changed
       run: |-
         git diff
