@@ -34,7 +34,7 @@ Interested in compilers and languages. Very low volume [blog](https://bobripplin
 | ``:e `=...` ``         | Evaluate expr in backticks as vim expression        |
 
 <!-- tips end -->
-More in the [archive](https://github.com/bobrippling/til/blob/master/readme.md)
+More in the [archive](https://github.com/bobrippling/bobrippling/blob/master/readme.md)
 
 </td>
 
