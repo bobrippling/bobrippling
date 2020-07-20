@@ -1,0 +1,27 @@
+name: Build README
+
+on:
+  push:
+  #workflow_dispatch:
+  #schedule:
+  #  - cron:  '32 * * * *'
+  #pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repo
+      uses: actions/checkout@v2
+    - name: Update README
+      env:
+        BOBRIPPLING_TOKEN: ${{ secrets.BOBRIPPLING_TOKEN }}
+      run: make
+    - name: Commit and push if changed
+      run: |-
+        git diff
+        git config --global user.email "readme-bot@example.com"
+        git config --global user.name "readme-bot"
+        git add -u
+        git commit -m "Auto-update $(date)"
+        git push
