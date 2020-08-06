@@ -39,5 +39,3 @@ More in the [archive](https://github.com/bobrippling/bobrippling/blob/master/rea
 </td>
 
 </tr></table>
-
-[How this works](https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/)
