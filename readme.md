@@ -32,6 +32,7 @@ Interested in compilers and languages. Very low volume [blog](https://bobripplin
 | `c_<C-R>_<C-G>`        | Insert [commit:]path of current object [fugitive]   |
 | `<C-W>_<C-^>`          | Open # in new split                                 |
 | ``:e `=...` ``         | Evaluate expr in backticks as vim expression        |
+| `:Termdebug <cmd>`     | Run gdb in [n]vim (with `:packadd termdebug`)       |
 
 <!-- tips end -->
 More in the [archive](https://github.com/bobrippling/bobrippling/blob/master/readme.md)
