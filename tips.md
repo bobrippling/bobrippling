@@ -8,6 +8,7 @@
 | `c_<C-R>_<C-G>`        | Insert [commit:]path of current object [fugitive]   |
 | `<C-W>_<C-^>`          | Open # in new split                                 |
 | ``:e `=...` ``         | Evaluate expr in backticks as vim expression        |
+| `:Termdebug <cmd>`     | Run gdb in [n]vim (with `:packadd termdebug`)       |
 
 # Archive
 
