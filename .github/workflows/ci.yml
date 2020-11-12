@@ -23,5 +23,5 @@ jobs:
         git config --global user.email "readme-bot@example.com"
         git config --global user.name "readme-bot"
         git add -u
-        git commit -m "Auto-update $(date)" || exit 0
+        git commit -m "Auto-update $(date)" --author "$(git log -1 --format='%an <%ae>')" || exit 0
         git push
