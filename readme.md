@@ -13,11 +13,11 @@ Interested in compilers and languages. Very low volume [blog](https://bobripplin
 
 ### :construction: Pull requests
 
-- [vim/vim#5024](https://github.com/vim/vim/pull/5024): Fix fnamemodify()'s handling of :r after :e
-- [vim/vim#5665](https://github.com/vim/vim/pull/5665): Handle non-'/' delimiters for commandline 'incsearch'
-- [vim/vim#6930](https://github.com/vim/vim/pull/6930): mksession: link between shared views into a terminal buffer
+- [vim/vim#5024](https://github.com/vim/vim/pull/5024): Fix `fnamemodify()`'s handling of `:r` after `:e`
+- [vim/vim#5665](https://github.com/vim/vim/pull/5665): Handle non-`'/'` delimiters for commandline `'incsearch'`
+- [vim/vim#6930](https://github.com/vim/vim/pull/6930): `mksession`: link between shared views into a terminal buffer
 - [vim/vim#7018](https://github.com/vim/vim/pull/7018): Fix crash when closing window in another tab
-- [neovim/neovim#11280](https://github.com/neovim/neovim/pull/11280): man.vim: implement 'tagfunc'
+- [neovim/neovim#11280](https://github.com/neovim/neovim/pull/11280): man.vim: implement `'tagfunc'`
 - [neovim/neovim#12155](https://github.com/neovim/neovim/pull/12155): Add terminal filtering and `lastused` to `:ls` (vim-patch:8.0.1651)
 - [rust/rust#68681](https://github.com/rust-lang/rust/pull/68681): Suggest path separator for single-colon typos
 
