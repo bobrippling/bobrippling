@@ -2,7 +2,7 @@
 
 | Command                | Description                                         |
 |------------------------|-----------------------------------------------------|
-| `:g/^\\s*\$/;//-1sort` | Sort each block of lines in a file                  |
+| `:g/^\s*$/;//-1sort`   | Sort each block of lines in a file                  |
 | `:&/& / :~/g&`         | Repeat last :s / :s-with-current-search             |
 | `:*cmd`                | Use last visual range as range for 'cmd'            |
 | `c_<C-R>_<C-G>`        | Insert [commit:]path of current object [fugitive]   |
