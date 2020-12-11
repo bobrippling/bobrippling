@@ -11,6 +11,15 @@ Interested in compilers and languages. Very low volume [blog](https://bobripplin
 [ucc]: https://github.com/bobrippling/ucc-c-compiler
 [cg]: https://github.com/bobrippling/cg
 
+### :hammer_and_wrench: Other Projects
+- [tim]: my vim clone
+- [uvi]: older vim clone
+- [utop]: process monitor
+
+[tim]: https://github.com/bobrippling/tim
+[uvi]: https://github.com/bobrippling/uvi
+[utop]: https://github.com/bobrippling/utop
+
 ### :construction: Pull requests
 
 - [vim/vim#5024](https://github.com/vim/vim/pull/5024): Fix `fnamemodify()`'s handling of `:r` after `:e`
