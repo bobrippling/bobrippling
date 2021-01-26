@@ -61,7 +61,7 @@ Interested in compilers and languages. Very low volume [blog](https://bobripplin
 | `:Termdebug <cmd>`     | Run gdb in [n]vim (with `:packadd termdebug`)       |
 
 <!-- tips end -->
-More in the [archive](https://github.com/bobrippling/bobrippling/blob/master/readme.md)
+More in the [archive](https://github.com/bobrippling/bobrippling/blob/master/tips.md#archive)
 
 ### :electric_plug: Vim Plugins
 - [vim-bg]: Run `grep`, `make`, etc in the background, lazily populating the quickfix or location list
