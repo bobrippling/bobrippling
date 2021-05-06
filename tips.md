@@ -42,6 +42,14 @@
 | `'bufhidden'`       | set 'hidden' on an individual buffer basis          |
 
 
+## Unix
+
+| Command                  | Description                                    |
+|--------------------------|------------------------------------------------|
+| `git ls-tree -rt $ci`    | peek inside the git object/tree structure      |
+
+
+
 ## Tricks
 
 ### Ignore spelling errors in syntax region
