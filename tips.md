@@ -5,9 +5,10 @@
 | `:g/^\s*$/;//-1sort`   | Sort each block of lines in a file                  |
 | `:*cmd`                | Use last visual range as range for 'cmd'            |
 | ``:e `=...` ``         | Evaluate expr in backticks as vim expression        |
-| `&/:&`                 | Repeat `:s` (w/pattern, not search), `:&[&]...`     |
+| `&/:&`                 | Repeat `:s` (w/original pattern, not search)        |
+| `:&&`                  | Repeat last :s, with its flags                      |
 | `g&`                   | Repeat `:s` (w/flags), with `%` as the range        |
-| `:~` / `:s//~/r`       | `:s/<new search>/orig replacement/`, `:~&` w/flags  |
+| `:~`                   | Repeat last `:s`, with-current-search               |
 
 # Archive
 
