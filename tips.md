@@ -9,6 +9,7 @@
 | `:&&`                  | Repeat last :s, with its flags                      |
 | `g&`                   | Repeat `:s` (w/flags), with `%` as the range        |
 | `:~`                   | Repeat last `:s`, with-current-search               |
+| `gI`                   | Start insert in the first column                    |
 
 # Archive
 
