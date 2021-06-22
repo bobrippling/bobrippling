@@ -59,6 +59,10 @@ Interested in compilers and languages. Very low volume [blog](https://bobripplin
 | `:&&`                  | Repeat last :s, with its flags                      |
 | `g&`                   | Repeat `:s` (w/flags), with `%` as the range        |
 | `:~`                   | Repeat last `:s`, with-current-search               |
+| `gI`                   | Start insert in the first column                    |
+| `^d`, `0^d`            | Delete one (or all) level of indent                 |
+| `^t`                   | Add one level of indent                             |
+| `[z`, `]z`             | Move to start/end of current fold                   |
 
 <!-- tips end -->
 More in the [archive](https://github.com/bobrippling/bobrippling/blob/master/tips.md#archive)
