@@ -13,6 +13,7 @@
 | `^d`, `0^d`            | Delete one (or all) level of indent                 |
 | `^t`                   | Add one level of indent                             |
 | `[z`, `]z`             | Move to start/end of current fold                   |
+| `c_<C-R>_<C-[APL]>`    | Command line, insert current WORD / path / line     |
 
 # Archive
 
