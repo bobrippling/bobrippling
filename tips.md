@@ -15,6 +15,7 @@
 | `[z`, `]z`             | Move to start/end of current fold                   |
 | `c_<C-R>_<C-[APL]>`    | Command line, insert current WORD / path / line     |
 | `"1pu.`, `u.`, ...     | Cycle through deletions (see `:h redo-register`)    |
+| `i_Ctrl-F`             | Reindent current line, from insert mode             |
 
 # Archive
 
