@@ -65,6 +65,7 @@ Interested in compilers and languages. Very low volume [blog](https://bobripplin
 | `[z`, `]z`             | Move to start/end of current fold                   |
 | `c_<C-R>_<C-[APL]>`    | Command line, insert current WORD / path / line     |
 | `"1pu.`, `u.`, ...     | Cycle through deletions (see `:h redo-register`)    |
+| `i_Ctrl-F`             | Reindent current line, from insert mode             |
 
 <!-- tips end -->
 More in the [archive](https://github.com/bobrippling/bobrippling/blob/master/tips.md#archive)
