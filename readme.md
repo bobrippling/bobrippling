@@ -29,6 +29,7 @@ Interested in compilers and languages. Very low volume [blog](https://bobripplin
 - [neovim/neovim#11280](https://github.com/neovim/neovim/pull/11280): man.vim: implement `'tagfunc'`
 - [neovim/neovim#12155](https://github.com/neovim/neovim/pull/12155): Add terminal filtering and `lastused` to `:ls` (vim-patch:8.0.1651)
 - [rust/rust#90677](https://github.com/rust-lang/rust/pull/90677): Suggest parentheses to create tuples when not already wrapped
+- [rust/rust#91530](https://github.com/rust-lang/rust/pull/91530): Suggest 1-tuple parentheses on exprs without existing parens
 - [rust/rust#68681](https://github.com/rust-lang/rust/pull/68681): Suggest path separator for single-colon typos
 
 ### :books: Cool Blogs
