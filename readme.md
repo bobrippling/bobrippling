@@ -62,12 +62,10 @@ Interested in compilers and languages. Very low volume [blog](https://bobripplin
 | `g&`                   | Repeat `:s` (w/flags), with `%` as the range        |
 | `:~`                   | Repeat last `:s`, with-current-search               |
 | `gI`                   | Start insert in the first column                    |
-| `^d`, `0^d`            | Delete one (or all) level of indent                 |
-| `^t`                   | Add one level of indent                             |
-| `[z`, `]z`             | Move to start/end of current fold                   |
 | `c_<C-R>_<C-[APL]>`    | Command line, insert current WORD / path / line     |
 | `"1pu.`, `u.`, ...     | Cycle through deletions (see `:h redo-register`)    |
 | `i_Ctrl-F`             | Reindent current line, from insert mode             |
+| `ai`, `aI`             | Current indent, current indent only (textobj-indent)|
 
 <!-- tips end -->
 More in the [archive](https://github.com/bobrippling/bobrippling/blob/master/tips.md#archive)
