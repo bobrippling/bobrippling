@@ -29,8 +29,8 @@
 | `<Ctrl-W>[i`        | New window jump to first line with a word on        |
 | `<Ctrl-W>} / :ptag` | Preview tag                                         |
 | `<Ctrl-W>z / :pc`   | Close preview                                       |
-| `<C-W>_<C-^>`       | Open # in new split                              |
-| `c_<C-R>_<C-G>`     | Insert [commit:]path of current object [fugitive]|
+| `<C-W>_<C-^>`       | Open # in new split                                 |
+| `c_<C-R>_<C-G>`     | Insert [commit:]path of current object [fugitive]   |
 
 ## Commands
 
