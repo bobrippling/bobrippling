@@ -66,6 +66,8 @@ Interested in compilers and languages. Very low volume [blog](https://bobripplin
 | `"1pu.`, `u.`, ...     | Cycle through deletions (see `:h redo-register`)    |
 | `i_Ctrl-F`             | Reindent current line, from insert mode             |
 | `ai`, `aI`             | Current indent, current indent only (textobj-indent)|
+| `:Lex`/`:Rex`          | Explore `%:h`                                       |
+| `i` in netrw           | Toggle view mode - tree etc                         |
 
 <!-- tips end -->
 More in the [archive](https://github.com/bobrippling/bobrippling/blob/master/tips.md#archive)
