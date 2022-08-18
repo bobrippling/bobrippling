@@ -65,9 +65,9 @@ Interested in compilers and languages. Very low volume [blog](https://bobripplin
 | `c_<C-R>_<C-[APL]>`    | Command line, insert current WORD / path / line     |
 | `"1pu.`, `u.`, ...     | Cycle through deletions (see `:h redo-register`)    |
 | `i_Ctrl-F`             | Reindent current line, from insert mode             |
-| `ai`, `aI`             | Current indent, current indent only (textobj-indent)|
 | `:Lex`/`:Rex`          | Explore `%:h`                                       |
 | `i` in netrw           | Toggle view mode - tree etc                         |
+| `ze`/`zs`              | Horizontal equivalents to zt/zb                     |
 
 <!-- tips end -->
 More in the [archive](https://github.com/bobrippling/bobrippling/blob/master/tips.md#archive)
