@@ -15,6 +15,7 @@
 | `i_Ctrl-F`             | Reindent current line, from insert mode             |
 | `:Lex`/`:Rex`          | Explore `%:h`                                       |
 | `i` in netrw           | Toggle view mode - tree etc                         |
+| `ze`/`zs`              | Horizontal equivalents to zt/zb                     |
 
 # Archive
 
