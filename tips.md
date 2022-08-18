@@ -13,7 +13,6 @@
 | `c_<C-R>_<C-[APL]>`    | Command line, insert current WORD / path / line     |
 | `"1pu.`, `u.`, ...     | Cycle through deletions (see `:h redo-register`)    |
 | `i_Ctrl-F`             | Reindent current line, from insert mode             |
-| `ai`, `aI`             | Current indent, current indent only (textobj-indent)|
 | `:Lex`/`:Rex`          | Explore `%:h`                                       |
 | `i` in netrw           | Toggle view mode - tree etc                         |
 
@@ -34,6 +33,8 @@
 | `^d`, `0^d`            | Delete one (or all) level of indent                 |
 | `^t`                   | Add one level of indent                             |
 | `[z`, `]z`             | Move to start/end of current fold                   |
+| `ai`, `aI`             | Current indent, current indent only (textobj-indent)|
+| `i_<C-[TD]>`,`i_0<C-D>`| Indent/unindent current line                        |
 
 ## Commands
 
