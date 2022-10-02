@@ -86,6 +86,7 @@
 | Command                | Description                                    |
 |------------------------|------------------------------------------------|
 | `git ls-tree -rt $ci`  | peek inside the git object/tree structure      |
+| `!:^` / `!:*`          | zsh 1st arg / all args                         |
 
 
 
