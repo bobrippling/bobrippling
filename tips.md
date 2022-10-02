@@ -14,8 +14,34 @@
 | `"1pu.`, `u.`, ...     | Cycle through deletions (see `:h redo-register`)    |
 | `i_Ctrl-F`             | Reindent current line, from insert mode             |
 | `:Lex`/`:Rex`          | Explore `%:h`                                       |
-| `i` in netrw           | Toggle view mode - tree etc                         |
 | `ze`/`zs`              | Horizontal equivalents to zt/zb                     |
+
+# Netrw
+
+| Command                | Description                                         |
+|------------------------|-----------------------------------------------------|
+| `i`                    | Toggle view mode - tree etc                         |
+| `-`                    | `cd ..`                                             |
+| `qf`                   | stat current file                                   |
+| `p`                    | open in preview window                              |
+| `gh`                   | toggle dotfiles                                     |
+| `a`                    | toggle hide list: show, hide, only                  |
+| `d`                    | mkdir                                               |
+| `%`                    | new file                                            |
+| `D`                    | unlink/rmdir                                        |
+| `R`                    | rename                                              |
+| `mf`                   | mark file                                           |
+| `mu`                   | unmark all                                          |
+| `qF`                   | mark files in qf                                    |
+| `mA`                   | mark arguments                                      |
+| `ma`                   | marked files --> args                               |
+| `ma`                   |              --> args                               |
+| `cb`                   |              --> buffer list                        |
+| `cB`                   | buffer list  --> marked files                       |
+| `mx`                   | execute `cmd %` per marked file (in local list)     |
+| `mX`                   | execute `cmd %` for all (in global list)            |
+| `mt`                   | mark target (I to toggle banner and view it)        |
+| `mm / mc`              | move / copy files to target                         |
 
 # Archive
 
