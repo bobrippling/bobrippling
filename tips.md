@@ -12,7 +12,7 @@
 | `gI`                   | Start insert in the first column (i.e. 0, not ^)    |
 | `c_<C-R>_<C-[APL]>`    | Command line, insert current WORD / path / line     |
 | `"1pu.`, `u.`, ...     | Cycle through deletions (see `:h redo-register`)    |
-| `i_Ctrl-F`             | Reindent current line, from insert mode             |
+| `i_Ctrl-F`             | Reindent current line, from insert mode ('cindent') |
 | `:Lex`/`:Rex`          | Explore `%:h`                                       |
 | `ze`/`zs`              | Horizontal equivalents to zt/zb                     |
 
