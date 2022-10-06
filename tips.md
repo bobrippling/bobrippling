@@ -16,7 +16,7 @@
 | `:Lex`/`:Rex`          | Explore `%:h`                                       |
 | `ze`/`zs`              | Horizontal equivalents to zt/zb                     |
 
-# Netrw
+### Netrw
 
 | Command                | Description                                         |
 |------------------------|-----------------------------------------------------|
