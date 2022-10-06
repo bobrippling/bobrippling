@@ -15,6 +15,7 @@
 | `i_Ctrl-F`             | Reindent current line, from insert mode ('cindent') |
 | `:Lex`/`:Rex`          | Explore `%:h`                                       |
 | `ze`/`zs`              | Horizontal equivalents to zt/zb                     |
+| `zv`/`zx`              | Visible cursor / reapply 'foldlevel', then zv       |
 
 ### Netrw
 
