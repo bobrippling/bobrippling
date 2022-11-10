@@ -68,6 +68,9 @@ Interested in compilers and languages. Very low volume [blog](https://bobripplin
 | `:Lex`/`:Rex`          | Explore `%:h`                                       |
 | `ze`/`zs`              | Horizontal equivalents to zt/zb                     |
 | `zv`/`zx`              | Visible cursor / reapply 'foldlevel', then zv       |
+| `'^`                   | Location of last insertion stop                     |
+| `/...<C-G>`            | Next 'incsearch' match (`C-T` for previous)         |
+| `:s/.../\L\u/`         | `\u` - capitalise first letter, `\L` lowercase rest |
 
 ### Netrw
 
