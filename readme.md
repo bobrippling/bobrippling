@@ -71,6 +71,7 @@ Interested in compilers and languages. Very low volume [blog](https://bobripplin
 | `'^`                   | Location of last insertion stop                     |
 | `/...<C-G>`            | Next 'incsearch' match (`C-T` for previous)         |
 | `:s/.../\L\u/`         | `\u` - capitalise first letter, `\L` lowercase rest |
+| `/\_^/`, `/\_$/`       | Match /^/, even if `^` isn't at pattern/group start |
 
 ### Netrw
 
