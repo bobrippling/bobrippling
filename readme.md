@@ -46,6 +46,7 @@ Interested in compilers and languages. Very low volume [blog](https://bobripplin
 - [neovim](https://github.com/neovim/neovim)
 - [dwm](https://dwm.suckless.org/)
 - [tmux](https://github.com/tmux/tmux)
+- [BangleJS](https://github.com/espruino/BangleApps)
 
 </td>
 
