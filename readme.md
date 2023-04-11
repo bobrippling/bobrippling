@@ -7,9 +7,11 @@ Interested in compilers and languages. Very low volume [blog](https://bobripplin
 ### :keyboard: Programming Languages
 - [ucc]: my own C compiler, to learn type systems, code-gen, parsing, etc.
 - [cg]: partially complete intermediate language, as a new backend for [ucc]
+- [podsync]: podcast syncing server, written in Rust
 
 [ucc]: https://github.com/bobrippling/ucc-c-compiler
 [cg]: https://github.com/bobrippling/cg
+[podsync]: https://github.com/bobrippling/podsync
 
 ### :hammer_and_wrench: Other Projects
 - [tim]: my vim clone
