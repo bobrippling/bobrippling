@@ -111,6 +111,7 @@ Interested in compilers and languages. Very low volume [blog](https://bobripplin
 | `blame -C[CC] -w`          | `-w`: skip whitespace commits, `-C` track across commits |
 | `clone --filter=blob:none` | clone and then fetch only the blobs needed for checkout  |
 | `scalar`                   | separate command for managing large git repos            |
+| `--fixup amend/reword:$ci  | amend: commit index & change $ci's msg (reword: no-index)|
 
 <!-- tips end -->
 More in the [archive](https://github.com/bobrippling/bobrippling/blob/master/tips.md#archive)
