@@ -22,6 +22,7 @@
 | `/\_^/`, `/\_$/`       | Match /^/, even if `^` isn't at pattern/group start |
 | `g==`                  | Run the current code block (in a `help` buffer)     |
 | `:w ++p [...]`         | Write, creating parent directories                  |
+| `:h news`              | Show release news                                   |
 
 ### Netrw
 
