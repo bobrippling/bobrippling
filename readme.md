@@ -60,10 +60,6 @@ Interested in compilers and languages. Very low volume [blog](https://bobripplin
 | `:g/^\s*$/;//-1sort`   | Sort each block of lines in a file                  |
 | `:*cmd`                | Use last visual range as range for 'cmd'            |
 | ``:e `=...` ``         | Evaluate expr in backticks as vim expression        |
-| `&/:&`                 | Repeat `:s` (w/original pattern, not search)        |
-| `:&&`                  | Repeat last :s, with its flags                      |
-| `g&`                   | Repeat `:s` (w/flags), with `%` as the range        |
-| `:~`                   | Repeat last `:s`, with-current-search               |
 | `gI`                   | Start insert in the first column (i.e. 0, not ^)    |
 | `c_<C-R>_<C-[APL]>`    | Command line, insert current WORD / path / line     |
 | `"1pu.`, `u.`, ...     | Cycle through deletions (see `:h redo-register`)    |
@@ -79,7 +75,17 @@ Interested in compilers and languages. Very low volume [blog](https://bobripplin
 | `:w ++p [...]`         | Write, creating parent directories                  |
 | `:h news`              | Show release news                                   |
 
-### Netrw
+## Substitute
+
+| Command                   | Description                                      |
+|---------------------------|--------------------------------------------------|
+| `:s [g]` / `:& [g]` / `&` | :s//~/   (orig pattern, flags not kept)          |
+| `&/:&`                    | :s                                               |
+| `g&`                      | :%s//~/& (orig pattern, flags kept)              |
+| `:~`                      | :s;@/;~; (search pattern, flags not kept)        |
+| `:s/.../.../&`            | Keep flags                                       |
+
+## Netrw
 
 | Command                | Description                                         |
 |------------------------|-----------------------------------------------------|
@@ -106,7 +112,7 @@ Interested in compilers and languages. Very low volume [blog](https://bobripplin
 | `mt`                   | mark target (I to toggle banner and view it)        |
 | `mm / mc`              | move / copy files to target                         |
 
-### Git
+## Git
 
 | Command                    | Description                                              |
 |----------------------------|----------------------------------------------------------|
