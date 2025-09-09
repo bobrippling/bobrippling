@@ -24,7 +24,7 @@
 | `:w ++p [...]`         | Write, creating parent directories                  |
 | `:h news`              | Show release news                                   |
 
-### Netrw
+## Netrw
 
 | Command                | Description                                         |
 |------------------------|-----------------------------------------------------|
@@ -51,7 +51,7 @@
 | `mt`                   | mark target (I to toggle banner and view it)        |
 | `mm / mc`              | move / copy files to target                         |
 
-### Git
+## Git
 
 | Command                    | Description                                              |
 |----------------------------|----------------------------------------------------------|
