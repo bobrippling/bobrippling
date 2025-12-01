@@ -20,6 +20,14 @@
 | `:w ++p [...]`         | Write, creating parent directories                  |
 | `:h news`              | Show release news                                   |
 
+## neovim
+
+```
+:echo v:servername  # this is $server
+:detach
+$ nvim --server $server --remote-ui
+```
+
 ## Substitute
 
 | Command                   | Description                                      |
